@@ -19,24 +19,26 @@
   <meta name="author" content="Mikasa">
   <meta name="keywords" content="">
   
-    <meta name="description" content="[ZJOI2015]地震后的幻想乡 考虑到 n≤10n \le 10n≤10 ，所以大概率状压。 题目要求的其实就是最小生成树上最大边在所有边中的排名。考虑当前排名为 iii ，排名向后一次产生的贡献为 1m+1\frac{1}{m+1}m+11​，概率为 aiCmi\frac{a_i}{C_{m}^{i}}Cmi​ai​​，其中 aia_iai​ 为加入第 iii 小的边后不连通的方案数。 设">
+    <meta name="description" content="OI时期的做题记录，纪念一下，居然写的还蛮多的">
 <meta property="og:type" content="article">
-<meta property="og:title" content="OI">
+<meta property="og:title" content="OI做题记录">
 <meta property="og:url" content="http://example.com/2025/06/22/2025.6.22%20OI%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="[ZJOI2015]地震后的幻想乡 考虑到 n≤10n \le 10n≤10 ，所以大概率状压。 题目要求的其实就是最小生成树上最大边在所有边中的排名。考虑当前排名为 iii ，排名向后一次产生的贡献为 1m+1\frac{1}{m+1}m+11​，概率为 aiCmi\frac{a_i}{C_{m}^{i}}Cmi​ai​​，其中 aia_iai​ 为加入第 iii 小的边后不连通的方案数。 设">
+<meta property="og:description" content="OI时期的做题记录，纪念一下，居然写的还蛮多的">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://darkbzoj.cc/JudgeOnline/upload/201509/fb(1).jpg">
 <meta property="og:image" content="https://i.loli.net/2018/07/28/5b5c0a750c492.png">
-<meta property="article:published_time" content="2025-06-21T16:00:00.000Z">
-<meta property="article:modified_time" content="2025-06-22T09:54:46.725Z">
+<meta property="article:published_time" content="2025-06-22T10:27:20.329Z">
+<meta property="article:modified_time" content="2025-06-23T07:12:49.014Z">
 <meta property="article:author" content="Mikasa">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://darkbzoj.cc/JudgeOnline/upload/201509/fb(1).jpg">
   
   
+    <meta name="referrer" content="no-referrer-when-downgrade">
   
-  <title>OI - Hexo</title>
+  
+  <title>OI做题记录 - Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -76,7 +78,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":false,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -204,7 +206,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="OI"></span>
+            <span id="subtitle">OI做题记录</span>
           
         </div>
 
@@ -212,11 +214,16 @@
           
   <div class="mt-3">
     
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-author" aria-hidden="true"></i>
+        Mikasa
+      </span>
+    
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-06-22 00:00" pubdate>
-          2025年6月22日 凌晨
+        <time datetime="2025-06-22 18:27" pubdate>
+          2025年6月22日 晚上
         </time>
       </span>
     
@@ -233,17 +240,17 @@
     
 
     
-      <span class="post-meta mr-2">
-        <i class="iconfont icon-clock-fill"></i>
-        
-        
-        
-          241 分钟
-        
-      </span>
-    
 
     
+    
+      
+        <span id="busuanzi_container_page_pv" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="busuanzi_value_page_pv"></span> 次
+        </span>
+        
+
+      
     
   </div>
 
@@ -275,7 +282,17 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">OI</h1>
+            <h1 id="seo-header">OI做题记录</h1>
+            
+              <p id="updated-time" class="note note-info" style="display: none">
+                
+                  
+                    本文最后更新于 2025-06-23T15:12:49+08:00
+                  
+                  
+
+                
+              </p>
             
             
               <div class="markdown-body">
@@ -935,58 +952,15 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
 
 
               
-  
-
-  <div class="license-box my-3">
-    <div class="license-title">
-      <div>OI</div>
-      <div>http://example.com/2025/06/22/2025.6.22 OI做题记录/</div>
-    </div>
-    <div class="license-meta">
-      
-        <div class="license-meta-item">
-          <div>作者</div>
-          <div>Mikasa</div>
-        </div>
-      
-      
-        <div class="license-meta-item license-meta-date">
-          <div>发布于</div>
-          <div>2025年6月22日</div>
-        </div>
-      
-      
-      
-        <div class="license-meta-item">
-          <div>许可协议</div>
-          <div>
-            
-              
-              
-                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
-                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
-                    <i class="iconfont icon-cc-by"></i>
-                  </span>
-                </a>
-              
-            
-          </div>
-        </div>
-      
-    </div>
-    <div class="license-icon iconfont"></div>
-  </div>
-
-
 
               
                 <div class="post-prevnext my-3">
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2025/06/22/2025.6.22%20blog%20%E6%97%A5%E5%BF%97/" title="Mikasa blog 日志">
+                      <a href="/2025/06/22/2025.6.22%20%E4%BB%A5%E5%89%8D%E7%9A%84%E9%97%B2%E8%AF%9D/" title="以前的闲话">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Mikasa blog 日志</span>
+                        <span class="hidden-mobile">以前的闲话</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -994,12 +968,49 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
                   <article class="post-next col-6">
                     
                     
+                      <a href="/2025/06/22/2025.6.22%20blog%20%E6%97%A5%E5%BF%97/" title="Mikasa blog 日志">
+                        <span class="hidden-mobile">Mikasa blog 日志</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
                   </article>
                 </div>
               
             </div>
 
             
+  
+  
+    <article id="comments" lazyload>
+      
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"i0F3GJpNeoOxZa3lS0Ua7msd-gzGzoHsz","appKey":"ENMIqcMNAxTfGEtHmlRVAMb3","path":"window.location.pathname","placeholder":"Just go go","avatar":"retro","meta":["nick","mail","link"],"requiredFields":["nick"],"pageSize":10,"lang":"zh-CN","highlight":true,"recordIP":false,"serverURLs":"http[s]://[tab/us].avoscloud.com","emojiCDN":false,"emojiMaps":false,"enableQQ":true},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
+
+
           </article>
         </div>
       </div>
@@ -1126,21 +1137,6 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
 <script  src="/js/plugins.js" ></script>
 
 
-  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
-  <script>
-    (function (window, document) {
-      var typing = Fluid.plugins.typing;
-      var subtitle = document.getElementById('subtitle');
-      if (!subtitle || !typing) {
-        return;
-      }
-      var text = subtitle.getAttribute('data-typed-text');
-      
-        typing(text);
-      
-    })(window, document);
-  </script>
-
 
 
 
@@ -1149,6 +1145,33 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   
 
 
+
+
+  
+<script>
+  var relativeDate = function() {
+    var updatedTime = document.getElementById('updated-time');
+    if (updatedTime) {
+      var text = updatedTime.textContent;
+      var reg = /\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2})/;
+      var matchs = text.match(reg);
+      if (matchs) {
+        var relativeTime = moment(matchs[0]).fromNow();
+        updatedTime.textContent = text.replace(reg, relativeTime);
+      }
+      updatedTime.style.display = '';
+    }
+  };
+  Fluid.utils.createScript('https://lib.baomitu.com/moment.js/2.29.4/moment.min.js', function() {
+    if (!'zh-cn'.startsWith('en')) {
+      Fluid.utils.createScript('https://lib.baomitu.com/moment.js/2.29.4/locale/zh-cn.min.js', function() {
+        relativeDate();
+      });
+    } else {
+      relativeDate();
+    }
+  });
+</script>
 
 
   
@@ -1245,6 +1268,8 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
   <script>Fluid.plugins.imageCaption();</script>
 
   <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
 
 
 
